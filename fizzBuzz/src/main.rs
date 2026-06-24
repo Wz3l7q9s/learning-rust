@@ -1,3 +1,4 @@
+//Very simple FizzBuzz program in rust
 fn main() {
     for i in 1..=100 {
         match (i % 3 == 0, i % 5 == 0) {
